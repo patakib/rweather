@@ -1,0 +1,33 @@
+[[city]]
+name = "Sopron"
+coordinates = [47.685, 16.5905]
+email = true
+
+[[city]]
+name = "Ravazd"
+coordinates = [47.5142, 17.7536]
+email = true
+
+[[city]]
+name = "Budapest"
+coordinates = [47.4984, 19.0404]
+email = true
+
+[[city]]
+name = "Vienna"
+coordinates = [48.2085, 16.3721]
+email = true
+
+[weather_parameters]
+parameters = [
+	"temperature_2m",
+	"precipitation_probability",
+	"precipitation",
+	"rain",
+	"snowfall",
+	"cloudcover",
+	"windspeed_10m",
+	"winddirection_10m",
+	"weathercode"
+]
+forecast_days = 16
